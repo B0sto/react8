@@ -1,8 +1,10 @@
-import React from 'react'
+import FullPage from "./organisms/FullPage/FullPage"
 
 const App = () => {
   return (
-    <div>App</div>
+    <div>
+      <FullPage/>
+    </div>
   )
 }
 

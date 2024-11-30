@@ -1,8 +1,9 @@
-import React from 'react'
+import Header_Section from "../../interfaces"
+import '../../App.css'
 
-const HeaderElement = () => {
+const HeaderElement = ({headerName}: Header_Section) => {
   return (
-    <div>HeaderElement</div>
+    <div className="headerName">{headerName}</div>
   )
 }
 

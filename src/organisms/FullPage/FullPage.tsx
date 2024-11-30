@@ -1,8 +1,13 @@
-import React from 'react'
+import Header from '../../moleculs/Header/Header'
+import Section from '../../moleculs/Section/Section'
 
 const FullPage = () => {
+
   return (
-    <div>FullPage</div>
+    <div>
+      <Header/>
+      <Section/>
+    </div>
   )
 }
 
