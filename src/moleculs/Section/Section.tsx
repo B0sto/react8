@@ -6,7 +6,6 @@ const Section = () => {
       <SectionElement sectionName='Home Section'/>
       <SectionElement sectionName='About Section'/>
       <SectionElement sectionName='Services Section'/>
-      <SectionElement sectionName='Contact Section'/>
     </div>
   )
 }
