@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Kumbh+Sans:wght@100..900&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contact-btn {
+  padding: 12px 24px;
+  background-color: chocolate;
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 6px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: .3s ease;
+  font-family: "Kumbh Sans", serif;
+}
+
+.contact-btn:hover {
+  background-color: rgb(237, 99, 0);
+}
+
+.contact-btn:focus {
+  outline: none;
+}
+
+h2 {
+  text-align: center;
+  margin-bottom: 20px;
+  font-family: "Kumbh Sans", serif;
+  color: #333;
+}
+
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  backdrop-filter: blur(8px);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.3s ease, visibility 0.3s ease;
+}
+
+.modal.visible {
+  opacity: 1;
+  visibility: visible;
+}
+
+.modal.hidden {
+  opacity: 0;
+  visibility: hidden;
+}
+
+
+.modal-content {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 30px;
+  border-radius: 12px;
+  max-width: 500px;
+  width: 100%;
+  position: relative;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(10px); 
+  overflow-y: auto;
+}
+
+.close-btn {
+  position: absolute;
+  top: 10px;
+  right: 15px;
+  font-size: 20px;
+  cursor: pointer;
+  color: #333;
+  font-family: "Kumbh Sans", serif;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+label {
+  font-size: 16px;
+  font-weight: bold;
+  color: #333;
+  font-family: "Kumbh Sans", serif;
+}
+
+input, textarea {
+  padding: 12px;
+  border: 1px solid #ddd;
+  border-radius: 8px;
+  font-size: 16px;
+  width: 100%;
+  transition: 0.3s;
+  font-family: "Kumbh Sans", serif;
+}
+
+input:focus, textarea:focus {
+  outline: none;
+  border-color: rgb(242, 147, 100);
+  box-shadow: 0 0 8px rgba(242, 147, 100, 0.6);
+}
+
+textarea {
+  resize: vertical;
+  height: 150px;
+  font-family: "Kumbh Sans", serif;
+}
+
+.submit_button {
+  padding: 12px 24px;
+  background-color: rgb(226, 92, 25);
+  color: white;
+  border: none;
+  cursor: pointer;
+  border-radius: 8px;
+  font-size: 16px;
+  font-weight: bold;
+  transition: 0.3s;
+  font-family: "Kumbh Sans", serif;
+}
+
+.submit_button:hover {
+  background-color: rgb(241, 128, 71);
+}
+
+.submit_button:focus {
+  outline: none;
+}
