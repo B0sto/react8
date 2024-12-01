@@ -10,7 +10,12 @@ header {
     padding: 20px 30px;
     background-color: rgb(242, 147, 100);
     margin-bottom: 50px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+    width: 100%;
 }
+
 
 nav {
     display: flex;
